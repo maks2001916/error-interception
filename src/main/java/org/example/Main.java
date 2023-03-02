@@ -7,7 +7,7 @@ public class Main {
         try {
             car.go();
         } catch(NewException e) {
-            e.getMessage("возникла ошибка");
+            e.getMessage("возникла ошибка ");
         }
     }
 }
